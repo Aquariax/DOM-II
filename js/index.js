@@ -7,7 +7,7 @@ logo.addEventListener("mouseover", function(e) {
   search.style.display = "none";
   setTimeout(() => {
     logo.style.fontSize = "4rem";
-    search.style.display = "";
+    search.style.display = " ";
   }, 1000);
 });
 // keydown
@@ -35,7 +35,7 @@ const nav = document.querySelector(".main-navigation");
     img.style.transform = "scale(1.1)";
     setTimeout(() => {
       img.style.transform = "scale(1)";
-      nav.style.background = "";
+      nav.style.background = " ";
     }, 1000);
   });
 });
